@@ -12,6 +12,18 @@ interface routesProps{
 }
 
 export const Routes: React.FC = () => {
+
+	let signed: boolean = true;
+
+	if(!signed){
+		return (
+			<Switch>
+				{routes.map((e: routesProps) => {
+					return <Route key={e.id} path={e.path} element={<e.component />} />
+				})}
+			</Switch >
+		)
+	}
 	return (
 		<Switch>
 			{routes.map((e: routesProps) => {
