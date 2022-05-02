@@ -11,11 +11,6 @@ interface routesProps {
 export const routes: routesProps[] = [
 	{
 		id: 0,
-		path: "/",
-		component: Login,
-	},
-	{
-		id: 2,
 		path: "/dashboard/produtos",
 		component: Produtos,
 	},

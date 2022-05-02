@@ -28,6 +28,7 @@ export const Routes: React.FC = () => {
 			{routes.map((e: routesProps) => {
 				return <Route key={e.id} path={e.path} element={<e.component />} />
 			})}
+			<Route path="*" element={<Navigate to={'/dashboard/produtos'} />} />
 		</Switch >
 	)
 }
