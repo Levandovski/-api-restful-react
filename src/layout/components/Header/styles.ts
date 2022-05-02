@@ -8,7 +8,7 @@ export const ContainerHeader = styled.div`
 	top: 0;
 	min-height: 84px;
 	z-index: 10;
-	background: #7a28a3;
+	background: #FF8300;
 `;
 
 export const HeaderContent = styled.div`
@@ -17,7 +17,7 @@ export const HeaderContent = styled.div`
 	align-items: center;
 	padding: 0 6.5%;
 	justify-content: space-evenly;
-	background: #1E90FF;
+	background: #FF8300;
 	width: auto;
 	height: 84px;
 `;

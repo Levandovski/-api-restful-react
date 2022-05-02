@@ -9,5 +9,5 @@ export const Container = styled.div`
 	justify-content: space-between;
 	padding: 0 8%;
 	margin-top: 20px;
-	background: #1E90FF;
+	background: #FF8300;
 `;
