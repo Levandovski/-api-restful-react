@@ -17,7 +17,7 @@ export const HeaderContent = styled.div`
 	align-items: center;
 	padding: 0 6.5%;
 	justify-content: space-evenly;
-	background: #f3f3f3;
+	background: #1E90FF;
 	width: auto;
 	height: 84px;
 `;
