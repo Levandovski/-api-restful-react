@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import Layout from './layout/components';
 import { Routes } from './routes';
-// import { GlobalSyled } from './styles/Globals';
+import { GlobalSyled } from './styles/Globals';
 
 export const App: React.FC = () => {
 
@@ -10,7 +10,7 @@ export const App: React.FC = () => {
 	return (
 		<BrowserRouter>
 			{signed ? <Layout /> : <Routes />}
-			{/* <GlobalSyled /> */}
+			<GlobalSyled />
 		</BrowserRouter>
 	);
 }
